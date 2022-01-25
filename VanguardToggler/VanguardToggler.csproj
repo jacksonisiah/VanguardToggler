@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <StartupObject>VanguardToggler.Program</StartupObject>
+    <ApplicationIcon>vanguard-1.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <Copyright>Jackson Isaiah IP</Copyright>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="vanguard-1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
